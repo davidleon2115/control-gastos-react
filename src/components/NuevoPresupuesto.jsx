@@ -3,7 +3,21 @@
 const NuevoPresupuesto = () => {
     return (
         <div className="contenedor-presupuesto contenedor sombra">
-            <h2>Nuevo Presupuesto</h2>
+            
+            <form action="" className="formulario">
+                <div className="campo">
+                    <label>Definir Presupuesto</label>
+
+                    <input 
+                        className="nuevo-presupuesto"
+                        type="text" 
+                        placeholder="Añade tu presupuesto"
+                    />
+                </div>
+
+                <input type="submit" value="Añadir" />
+            </form>
+
         </div>
     )
 }
