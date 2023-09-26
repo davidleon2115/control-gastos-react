@@ -1,11 +1,15 @@
 // eslint-disable-next-line no-unused-vars
 import { useState } from 'react'
+import Header from './components/Header'
+
 
 
 function App() {
 
   return (
-    <h1>Control de Gastos</h1>
+    <div>
+      <Header />
+    </div>
   )
 }
 
