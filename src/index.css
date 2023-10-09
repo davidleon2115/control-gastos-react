@@ -163,7 +163,7 @@ header h1 {
     transform: translateY(5rem);
 }
 .dos-columnas {
-    flex-direction: column;
+    flex-direction: row;
 }
 .dos-columnas :first-child {
     margin-bottom: 4rem;
